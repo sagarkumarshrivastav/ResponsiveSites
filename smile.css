@@ -1,5 +1,6 @@
 #outter{
-    margin: 0;
+    margin: 10% 10% 0% 10%;
+    justify-content: center;
     height: 400px;
     width: 300px;
     position: relative;
@@ -42,14 +43,36 @@
     position: absolute;
 }
 
+/* #face:hover{
+    transform: scale(1.2) rotate(360deg);
+    transition: 2s ease-in-out 1s;
+} */
+
 #title{
     height: 100%;
     width: 100%;
 }
 
 span{
+    margin-top: 10%;
     font-size: 2rem;
     font-family: cursive;
     display: block;
     text-align: center;
+}
+
+/* span:hover{
+    transform: scale(0.8) rotate(360deg);
+    transition: 2s ease-in-out 1s;
+} */
+
+#outter:hover{
+    #face{
+        transform: scale(1.2) rotate(360deg);
+        transition: 2s ease-in-out 1s;
+    }
+    span{
+        transform: scale(0.8) rotate(360deg);
+        transition: 2s ease-in-out 1s;
+    }
 }
